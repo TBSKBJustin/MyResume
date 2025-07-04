@@ -3,11 +3,11 @@ var config = {
     name: "Justin",
     sex: "Male",
     age: "23",
-    phone: "19872222222",
-    email: "happysnaker@foxmail.com this`s true",
-    address: "Phoenix Arizona, USA",
-    qq: "11",
-    log: "Happysnaker",
+    phone: "480-788-0595",
+    email: "justinsaw@gmail.com",
+    address: "Phoenix, Arizona, USA",
+    qq: "209-323-100",
+    log: "Justin Zhang",
     excpect_work: "Java/Go后端开发",
 
 
