@@ -3,10 +3,10 @@ var config = {
     name: "Jingxuan (Justin) Zhang",
     sex: "Male",
     age: "23",
-    phone: "",
+    phone: "6028129097",
     email: "justinzhangsaw@gmail.com",
     address: "Phoenix, AZ, USA",
-    qq: "",
+    qq: "209323100",
     log: "JingxuanZhang",
     excpect_work: "Web Developer / IT Support",
 
