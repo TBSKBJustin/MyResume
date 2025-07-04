@@ -111,11 +111,9 @@ var config = {
 
     //这是一些图片链接，建议您仅更改第二个头像图片
     url: [
-      url: [
         "./images/intro-bg.jpg",
-        "./images/avatar.jpg",
+        "./images/2.jpg",
         "./images/work-bk.png",
-        "./images/others-bk.png"
-    ]
+        "./images/4.jpg"
     ]
 };
