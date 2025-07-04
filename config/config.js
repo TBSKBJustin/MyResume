@@ -25,7 +25,7 @@ var config = {
              "<p>Computer Science Student at Grand Canyon University</p>",
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
-    about: "<p>你好！我叫张靖轩（Justin），目前在Grand Canyon University攻读计算机科学学士学位，预计于2026年4月毕业。</p>" +
+    about: "<p>你好！我叫张景宣（Justin），目前在Grand Canyon University攻读计算机科学学士学位，预计于2026年4月毕业。</p>" +
            "<p>我拥有Web开发和IT支持方面的实践经验，包括在Antioch Grace Church设计并维护网站，以及在Grand Canyon Education提供技术支持。</p>" +
            "<p>我擅长Python、Java、C++、JavaScript和SQL，并熟悉AWS、Docker、Git等技术。具备团队协作与独立解决问题的能力，期待与您合作与联系！</p>",
 
