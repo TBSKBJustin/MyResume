@@ -12,12 +12,12 @@ var config = {
 
     /*在这里配置首页的座右铭集合*/
     motto: [
-        "明天不一定会更好，但要坚信更好的明天一定会来。",
-        "要做的事情总找得出时间和机会，不愿意做的事情也总能找得出借口。",
+        "Tomorrow isn't guaranteed to be better, but believe a better tomorrow is coming.",
+        "There is always time and opportunity for what you want to do; excuses abound otherwise.",
         "Stay Curious, Keep Learning.",
         "Code Is Like Humor. When You Have to Explain It, It’s Bad.",
         "The best way to predict the future is to invent it.",
-        "天道酬勤。"
+        "Hard work pays off."
     ],
 
     /*在这里配置首页的见面信息，你可以内嵌HTML标签以调整格式*/
@@ -25,9 +25,9 @@ var config = {
              "<p>Computer Science Student at Grand Canyon University</p>",
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
-    about: "<p>你好！我叫张靖轩（Justin），目前在Grand Canyon University攻读计算机科学学士学位，预计于2026年4月毕业。</p>" +
-           "<p>我拥有Web开发和IT支持方面的实践经验，包括在Antioch Grace Church设计并维护网站，以及在Grand Canyon Education提供技术支持。</p>" +
-           "<p>我擅长Python、Java、C++、JavaScript和SQL，并熟悉AWS、Docker、Git等技术。具备团队协作与独立解决问题的能力，期待与您合作与联系！</p>",
+    about: "<p>Hello! I'm Jingxuan (Justin) Zhang, currently pursuing a Bachelor of Science in Computer Science at Grand Canyon University, expected to graduate in April 2026.</p>" +
+           "<p>I have hands-on experience in web development and IT support, including designing and maintaining the Antioch Grace Church website and providing technical support at Grand Canyon Education.</p>" +
+           "<p>Proficient in Python, Java, C++, JavaScript, and SQL, and familiar with AWS, Docker, and Git. I thrive on collaboration and problem-solving—let’s connect and work together!</p>",
 
     /** 
      * 在这里配置你的技能点
@@ -45,14 +45,14 @@ var config = {
 
     /*这里填写你的技能描述，你可以内嵌HTML标签以调整格式*/
     skills_description: "<ul>" +
-        "<li>熟练掌握Python、Java、C++、JavaScript和SQL编程。</li>" +
-        "<li>熟悉HTML5、CSS3及相关前端技术。</li>" +
-        "<li>具备WordPress网站开发经验。</li>" +
-        "<li>熟悉AWS云服务部署与管理。</li>" +
-        "<li>了解Docker容器化和MongoDB数据库。</li>" +
-        "<li>熟悉Linux环境及Git版本控制。</li>" +
-        "<li>具备MATLAB和硬件组装技能。</li>" +
-        "<li>英语（流利）和普通话（母语）。</li>" +
+        "<li>Proficient in Python, Java, C++, JavaScript, and SQL programming.</li>" +
+        "<li>Familiar with HTML5, CSS3, and related front-end technologies.</li>" +
+        "<li>Experience in WordPress website development.</li>" +
+        "<li>Skilled in deploying and managing AWS cloud services.</li>" +
+        "<li>Knowledgeable in Docker containerization and MongoDB databases.</li>" +
+        "<li>Comfortable in Linux environments and Git version control.</li>" +
+        "<li>Hands-on experience with MATLAB and hardware assembly.</li>" +
+        "<li>Languages: English (fluent) and Mandarin (native).</li>" +
     "</ul>",
 
     /**
@@ -60,8 +60,8 @@ var config = {
      * ["img","url", "ProjectName", "brief"]
      */
     portfolio: [
-        ["./images/whispergui.png", "https://github.com/TBSKBJustin/WhisperGUI", "WhisperGUI", "跨平台桌面应用，基于Python和Whisper实现音视频转录，并集成自动安装。"],
-        ["./images/zepheria.png", "#", "Zepheria VR Game", "团队项目：角色扮演VR游戏，优化战斗系统并提升响应速度。"]
+        ["./images/whispergui.png", "https://github.com/TBSKBJustin/WhisperGUI", "WhisperGUI", "Cross-platform desktop application for audio/video transcription using Python and Whisper, with automated installation integration."],
+        ["./images/zepheria.png", "#", "Zepheria VR Game", "Team project: VR role-playing game with optimized combat system and improved responsiveness."]
     ],
 
     /**
@@ -71,13 +71,13 @@ var config = {
     work: [
         ["Aug 2024 — Present", "Web Developer, Antioch Grace Church",
             "<p>Designed and built the church website (agc-az.org) from the ground up on AWS.</p>" +
-            "<p>Manage and update website content weekly to ensure functionality and relevance.</p>" +
-            "<p>Maintain server performance and security on AWS.</p>"
+            "<p>Managed and updated website content weekly to ensure functionality and relevance.</p>" +
+            "<p>Maintained server performance and security on AWS.</p>"
         ],
         ["Sep 2023 — May 2025", "IT Helpdesk Support, Grand Canyon Education",
             "<p>Provided technical support via chat, phone, and in-person for faculty, staff, and students.</p>" +
             "<p>Resolved 50+ issues per week, including network troubleshooting and hardware/software repairs.</p>" +
-            "<p>Assisted with Audio-Visual setups for classrooms and events.</p>" +
+            "<p>Assisted with audio-visual setups for classrooms and events.</p>" +
             "<p>Improved system performance through regular hardware/software optimizations.</p>"
         ],
         ["Aug 2022 — Jul 2023", "CargoWise Assistant, T-Link",
@@ -105,8 +105,8 @@ var config = {
      * ["img", "url", "desc"]
      */
     icon: [
-        ["./svg/github.svg", "https://github.com/TBSKBJustin", "我的 GitHub"],
-        ["./svg/LinkedIn.svg", "https://www.linkedin.com/in/justin-zhang-jingxuan", "我的 LinkedIn"]
+        ["./svg/github.svg", "https://github.com/TBSKBJustin", "My GitHub"],
+        ["./svg/LinkedIn.svg", "https://www.linkedin.com/in/justin-zhang-jingxuan", "My LinkedIn"]
     ],
 
     //这是一些图片链接，建议您仅更改第二个头像图片
