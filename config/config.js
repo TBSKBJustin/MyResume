@@ -3,7 +3,7 @@ var config = {
     name: "Jingxuan (Justin) Zhang",
     sex: "Male",
     age: "23",
-    phone: "",
+    phone: "(480)788-0595",
     email: "justinzhangsaw@gmail.com",
     address: "Phoenix, AZ, USA",
     qq: "",
