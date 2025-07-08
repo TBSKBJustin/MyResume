@@ -8,7 +8,7 @@ var config = {
     address: "Phoenix, AZ, USA",
     qq: "",
     log: "JingxuanZhang",
-    excpect_work: "Web Developer / IT Support",
+    excpect_work: "Web/App Developer / AI Platform",
 
     /*在这里配置首页的座右铭集合*/
     motto: [
