@@ -107,9 +107,13 @@ var config = {
             "<p>Managed AV systems and YouTube content for 100+ weekly viewers, ensuring high-quality streaming.</p>" +
             "<p>Responsible for real-time sermon translation from Chinese to English.</p>"
         ],
-        ["Aug 2018 — May 2021", "Team Leader, Arizona STEM MESA Competition",
-            "<p>Led coding team to 4th place in AZ 2019 competition.</p>" +
+        ["May 2021", "1th Place, Arizona STEM MESA Competition",
+            "<p>Team Leader, App Design Group</p>" +
             "<p>Led team of 5 to design iOS medication management app, winning 1st place in AZ 2021.</p>"
+        ],
+        ["May 2019", "4th Place, Arizona STEM MESA Competition",
+            "<p>Team Leader, Coding Logic Group</p>" +
+            "<p>Led coding team to 4th place in AZ 2019 competition.</p>"
         ]
     ],
 
