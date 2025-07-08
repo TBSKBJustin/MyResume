@@ -22,7 +22,7 @@ var config = {
 
     /*在这里配置首页的见面信息，你可以内嵌HTML标签以调整格式*/
     welcome: "<h2>Hello! I'm Jingxuan (Justin) Zhang</h2><br>" +
-             "<p>Computer Science Student at Grand Canyon University</p>",
+             "<p>Bachelor of Science in Computer Science, Grand Canyon University</p>",
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
     about: "<p>Hello! I'm Jingxuan (Justin) Zhang, currently pursuing a Bachelor of Science in Computer Science at Grand Canyon University, expected to graduate in April 2026.</p>" +
