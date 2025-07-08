@@ -61,7 +61,7 @@ var config = {
      */
     portfolio: [
         ["./images/whispergui.png", "https://github.com/TBSKBJustin/WhisperGUI", "WhisperGUI", "Cross-platform desktop application for audio/video transcription using Python and Whisper, with automated installation integration."],
-        ["./images/zepheria.png", "#", "Zepheria VR Game", "Team project: VR role-playing game with optimized combat system and improved responsiveness."]
+        ["./images/zepheria.png", "https://github.com/TBSKBJustin/Zepheria_Beta", "Zepheria VR Game", "Team project: VR role-playing game with optimized combat system and improved responsiveness."]
     ],
 
     /**
@@ -74,14 +74,27 @@ var config = {
             "<p>Managed and updated website content weekly to ensure functionality and relevance.</p>" +
             "<p>Maintained server performance and security on AWS.</p>"
         ],
-        ["Sep 2023 — May 2025", "IT Helpdesk Support, Grand Canyon Education",
-            "<p>Provided technical support via chat, phone, and in-person for faculty, staff, and students.</p>" +
-            "<p>Resolved 50+ issues per week, including network troubleshooting and hardware/software repairs.</p>" +
-            "<p>Assisted with audio-visual setups for classrooms and events.</p>" +
-            "<p>Improved system performance through regular hardware/software optimizations.</p>"
+        ["Sep 2023 — Present", "IT Helpdesk Support Services, Grand Canyon Education, IT",
+            "<p>Maintained and upgraded systems for optimal performance.</p>" +
+            "<p>Troubleshot and resolved technical issues with software, hardware, and network connectivity.</p>" +
+            "<p>Resolved 50+ technical support requests per week for faculty, staff, and students.</p>" +
+            "<p>Provided remote and in-person support for faculty, staff, and students.</p>" +
+            "<p>Assisted with audio-visual setups for classrooms, events, and meetings.</p>" +
+            "<p>Educated users on hardware and software best practices.</p>"
+        ],
+        ["May 2023 — Sep 2023", "Technical Support Representative, Grand Canyon Education, IT",
+            "<p>Provided chat and phone support using technical documentation.</p>" +
+            "<p>Troubleshot and resolved issues through critical thinking.</p>" +
+            "<p>Stayed updated on product changes and integrated them into support processes.</p>" +
+            "<p>Offered consultative support for customers and program implementation.</p>"
         ],
         ["Aug 2022 — Jul 2023", "CargoWise Assistant, T-Link",
             "<p>Managed SQL queries and assisted in CargoWise system operations.</p>"
+        ],
+        ["Jun 2021 — Oct 2021", "Business Assistant, Lets Have Fun Bros",
+            "<p>Responsible for procuring items from Amazon’s return storage units and transporting them to the company’s storage unit in Goodyear, AZ.</p>" +
+            "<p>Assisted with the operation and sale of procured merchandise, including testing and categorizing items post-transport.</p>" +
+            "<p>Listed items on second-hand platforms such as OfferUp, Mercari, and eBay, and prepared merchandise for sale at the Phoenix Swap every Tuesday night.</p>"
         ]
     ],
 
