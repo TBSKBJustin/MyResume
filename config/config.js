@@ -61,7 +61,7 @@ var config = {
      */
     portfolio: [
         ["./images/whispergui.png", "https://github.com/TBSKBJustin/WhisperGUI", "WhisperGUI", "Cross-platform desktop application for audio/video transcription using Python and Whisper, with automated installation integration."],
-        ["./images/zepheria.png", "https://github.com/TBSKBJustin/Zepheria_Beta", "Zepheria VR Game", "Team project: VR role-playing game with optimized combat system and improved responsiveness."]
+        ["./images/zepheria.png", "https://github.com/TBSKBJustin/Zepheria_Beta", "Zepheria VR Game", "Team project: VR role-playing game with optimized combat system and improved responsiveness."],
         ["./images/agcweb.png", "https://agc-az.org", "Antioch Grace Church Website", "Designed and built a dynamic, multilingual church website for Antioch Grace Church using WordPress, enabling categorized sermon archives, YouTube integration, and community updates."]
     ],
 
