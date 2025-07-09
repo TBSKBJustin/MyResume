@@ -75,7 +75,7 @@ var config = {
             "<p>Managed and updated website content weekly to ensure functionality and relevance.</p>" +
             "<p>Maintained server performance and security on AWS.</p>"
         ],
-        ["Sep 2023 — Present", "IT Helpdesk Support Services, Grand Canyon Education, IT",
+        ["Sep 2023 — May 2025", "IT Helpdesk Support Services, Grand Canyon Education, IT",
             "<p>Maintained and upgraded systems for optimal performance.</p>" +
             "<p>Troubleshot and resolved technical issues with software, hardware, and network connectivity.</p>" +
             "<p>Resolved 50+ technical support requests per week for faculty, staff, and students.</p>" +
