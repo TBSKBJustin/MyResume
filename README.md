@@ -1,222 +1,228 @@
-## 关于
+# Jingxuan (Justin) Zhang - Personal Resume Website
 
-我认为每一个人都需要一个简历网页以介绍自己，可以作为面试时的加分项，也可以放置在您的个人网站之中。
+## About
 
-这是一款响应式炫酷而优雅的个人简历网页，电脑与手机均适用，无需联网，纯前端HTML+CSS+JavaScript实现，可用于个人简历、个人网站、个人简介或学习使用，可以通过配置文件自动生成属于你自己的网页。
+A responsive and elegant personal resume website designed for Jingxuan (Justin) Zhang. This pure front-end project is built with HTML, CSS, and JavaScript, optimized for desktop, tablet, and mobile devices. The website showcases professional experience, skills, projects, and contact information.
 
-## 演示
+## Live Demo
 
-[网页演示地址](https://happysnaker.github.io/Resume/)
+View the live website at: [Your Deployed URL]
 
-在手机或平板或电脑上查看该网页。
+Compatible with all modern browsers and devices.
 
+## Project Structure
 
+```
+MyResume/
+├── index.html              # Main entry point
+├── README.md               # Project documentation
+├── config/
+│   └── config.js          # Configuration file (personal info, skills, projects, etc.)
+├── CSS/
+│   ├── personal-info-main.css      # Main styling
+│   ├── personal-info-animate.css   # Animation styles
+│   ├── bootstrap.min.css           # Bootstrap framework
+│   ├── aos.css                     # AOS animation library
+│   └── ...                         # Other CSS libraries
+├── JS/
+│   ├── personal-info-main.js       # Main JavaScript logic
+│   ├── particles.min.js            # Particle background effect
+│   ├── aos.js                      # Scroll animations
+│   ├── jquery-3.6.0.js            # jQuery library
+│   └── ...                         # Other JS libraries
+├── images/                         # Image assets
+└── svg/                           # Social media icons
+```
 
-## 项目结构
+## Features
 
-前往[happysnaker/Resume-Web-Page项目仓库](https://github.com/happysnaker/Resume-Web-Page)clone项目，保存在你自己的文件中。
+- ✨ **Responsive Design** - Works seamlessly across all devices
+- 🎨 **Modern UI/UX** - Clean and professional interface
+- ⚡ **Fast Loading** - Pure front-end, no backend required
+- 🎭 **Smooth Animations** - AOS scroll animations and particle effects
+- 🔧 **Easy Configuration** - Update content via single config file
+- 📱 **Mobile Optimized** - Touch-friendly navigation
 
-Resume文件下：
+## Configuration
 
-- config文件包含了项目的配置文件。
-- CSS文件下personal-info-main.css为主要的CSS代码，personal-info-animate.css为项目的动画CSS代码，其余CSS文件为引用库。
-- JS文件下personal-info-main.js为主要的JS代码，其余js文件为引用库。
-- images文件包含了可能用上的图片。
-- svg文件下包含了一些图标。
-- index.html为网页的入口。
+All personal information is managed through the `./config/config.js` file. Simply update this file to customize the website with your own information.
 
-
-
-## 配置
-
-**在./config/config.js文件中配置您的信息以自动生成属于你自己的网页，遵循JavaScript对象声明规范，注意格式，对象变量中间不要漏写逗号，对象变量结尾不要多写逗号。**
+### Basic Configuration Example
 
 ```javascript
 var config = {
-    /*在这里配置你的基本信息，所有数据以字符串形式给出*/
-    name: "卢世荣",
-    sex: "男",
-    age: "19",
-    phone: "19870887127",
-    email: "happysnaker@foxmail.com",
-    address: "现居浙江省义乌市",
-    qq: "1637318597",
-    log: "Happysnaker",
-    excpect_work: "Java/Go后端开发",
+    // Basic Information
+    name: "Jingxuan (Justin) Zhang",
+    sex: "Male",
+    age: "23",
+    phone: "(480)788-0595",
+    email: "justinzhangsaw@gmail.com",
+    address: "Phoenix, AZ, USA",
+    qq: "",
+    log: "JingxuanZhang",
+    excpect_work: "Web/App Developer / AI Platform",
 
-
-    /*在这里配置首页的座右铭集合*/
+    // Homepage Mottos (randomly displayed)
     motto: [
-        "明天不一定会更好，但要坚信更好的明天一定会来。",
-        "要做的事情总找得出时间和机会，不愿意做的事情也总能找得出借口。",
-        "Gor For It!",
-        "有智者立长志，无志者长立志。",
-        "那些过去的眼泪终将风干在记忆里。",
-        "真相，是为了剿灭幻想。",
-        "我欲将心向明月，奈何明月照沟渠。",
-        "春风得意马蹄疾，一日看尽长安花。",
-        "天凉好个秋！",
-        "老骥伏枥，志在千里。烈士暮年，壮心不已。",
-        "老当益壮，宁移白首之心。穷且益坚，不坠青云之志。",
-        "我们必须拿我们所有的， 去换我们所没有的",
-        "蒹葭苍苍，白露为霜；所谓伊人，在水一方。",
-        "数风流人物，还看今朝！"
+        "Tomorrow isn't guaranteed to be better, but believe a better tomorrow is coming.",
+        "Stay Curious, Keep Learning.",
+        "The best way to predict the future is to invent it."
     ],
 
+    // Welcome Message (supports HTML tags)
+    welcome: "<h2>Hello! I'm Jingxuan (Justin) Zhang</h2><br>" +
+             "<p>Bachelor of Science in Computer Science, Grand Canyon University</p>",
 
-    /*在这里配置首页的见面信息，你可以内嵌HTML标签以调整格式*/
-    welcome: "青青子衿，悠悠我心<br>" +
-             "但为君故，沉吟至今<br>" +
-             "你好，我是卢世荣，南昌大学软件工程大二在读生<br>" +
-             "很高兴见到你!",
+    // About Me Section (supports HTML tags)
+    about: "<p>Hello! I'm Jingxuan (Justin) Zhang...</p>",
 
-
-    /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
-    about: "<p>你好！我叫卢世荣，性别男，南昌软件学院大二在读。我期望的工作岗位是Go/Java后端开发。</p>" +
-        "<p>我有着较多的Java编程经验，计算机基础知识掌握扎实，能够在工作中很好的完成自己的任务。此外，我有着充满激情的工作态度，团队协同作战能力强，同时我也具备独立开发的能力，擅于发现并解决问题。我的执行力强、责任感高、集体荣誉感强、敢于担当，能够接受加班或出差等安排</p>" +
-        "<p>十分期待与您的联系!</p>",
-
-
-
-    /** 
-    * 在这里配置你的技能点
-    * ["技能点", 掌握程度, "技能条颜色"]
-    */  
+    // Skills Configuration
+    // Format: ["Skill Name", Proficiency (0-100), "Color"]
     skills: [
-        ["Java", 80, "red"],
-        ["GoLang", 77, "blue"],
-        ["SQL", 75, "#1abc9c"],
-        ["HTML5", 67, "rgba(0,0,0)"],
-        ["CSS3", 60, "yellow"],
-        ["JavaScript", 70, "pink"]
+        ["Python", 85, "blue"],
+        ["Java", 80, "#f1c40f"],
+        ["C++", 75, "#2ecc71"],
+        ["JavaScript", 70, "#e67e22"]
     ],
 
-
-    /*这里填写你的技能描述，你可以内嵌HTML标签以调整格式*/
+    // Skills Description (supports HTML)
     skills_description: "<ul>" +
-        "     <li>操作系统、计算机网络等编程基础知识良好。</li>" +
-        "     <li>熟练掌握Java基础。</li>" +
-        "     <li>熟悉JavaIO、多线程、集合等基础框架。</li>" +
-        "     <li>了解JVM原理。</li>" +
+        "<li>Proficient in Python, Java, C++, JavaScript, and SQL programming.</li>" +
+        "<li>Experience in WordPress website development.</li>" +
+        "<li>Skilled in AWS cloud services deployment.</li>" +
+    "</ul>" +
         "     <li>熟悉Go语言开发基本知识。</li>" +
         "     <li>熟悉SQL语句编写以及调优。</li>" +
         "     <li>熟悉基本Linux命令操作。</li>" +
         "     <li>熟悉Spring、ibatis、struts等框架的使用，了解其原理与机制。</li>" +
         "     <li>熟悉缓存、消息等机制。</li>" +
         "     <li>了解分布式系统的设计与应用。</li>" +
-        "     <li>熟悉HTML、CSS、JavaScript以及相应前端知识。</li>" +
-        " </ul>",
-
-
-    /**
-     * 这里填写你的个人作品展示
-     * ["img"，"url", "ProjectName", "brief"]
-     * img表示您的作品图片链接，url表示您的项目地址，ProjectName表示您的仓库或作品名称，brief是一句简短的介绍
-     * 通过查看实际效果以调整字题长度
-     */
+    // Portfolio Projects
+    // Format: ["image_path", "project_url", "Project Name", "Brief description"]
     portfolio: [
-        ["./images/pro-1.png", "http://1.15.234.109:8000/", "个人博客", "这里记录了我的Java后端学习笔记<br>持续更新"],
-        ["./images/pro-2.png", "https://github.com/happysnaker/Gobang", "智能人机对战五子棋", "采用C++编写的智能五子棋人机对战<br>2021/7/23"],
-        ["https://pic3.zhimg.com/80/v2-d9766956d5c85c2780e4c5008fd946ca_1440w.jpg", "https://github.com/happysnaker/StudentsManageSystem", "学生管理系统", "C语言+AVL树+多重双向表实现"]
+        ["./images/whispergui.png", "https://github.com/TBSKBJustin/WhisperGUI", "WhisperGUI", "Cross-platform desktop application for audio/video transcription using Python and Whisper"],
+        ["./images/zepheria.png", "https://github.com/TBSKBJustin/Zepheria_Beta", "Zepheria VR Game", "Team project: VR role-playing game with optimized combat system"],
+        ["./images/agcweb.png", "https://agc-az.org", "Church Website", "Dynamic, multilingual website with sermon archives and YouTube integration"]
     ],
 
-
-    /**
-     * 这里填写您的工作经历
-     * ["日期"， "工作"， "介绍"]
-     * 你可以内嵌HTML标签以排版格式
-     */
+    // Work Experience
+    // Format: ["Date Range", "Job Title", "Description (HTML supported)"]
     work: [
-        //如果您内有工作经历，您可以采取下列写法
-        // ["————————", "", "<p>暂无工作经历，期待您的联系。</p>"]
-
-        ["2020/7/1 — 2021/8/10", "<br>阎王殿实习生",
-            "<p><strong>阎王殿研发部</strong></p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>"
+        ["Aug 2024 — Present", "Web Developer, Antioch Grace Church",
+            "<p>Designed and built the church website (agc-az.org) from the ground up on AWS.</p>" +
+            "<p>Managed and updated website content weekly to ensure functionality and relevance.</p>" +
+            "<p>Maintained server performance and security on AWS.</p>"
         ],
-
-        ["2020/7/1 — 2021/8/10", "<br>阎王殿实习生",
-            "<p><strong>阎王殿研发部</strong></p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>" +
-            "<p>随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。</p>"
+        ["Sep 2023 — May 2025", "IT Helpdesk Support Services, Grand Canyon Education",
+            "<p>Maintained and upgraded systems for optimal performance.</p>" +
+            "<p>Resolved 50+ technical support requests per week for faculty, staff, and students.</p>" +
+            "<p>Provided remote and in-person support with audio-visual setups.</p>"
         ]
     ],
 
-
-    /**
-     * 这里填写你的其他经历
-     * ["日期"， "经历"， "介绍"]
-     * 建议填写您的校级及以上得奖经历或或其他证书
-     */
+    // Other Experience
+    // Format: ["Date", "Experience Title", "Description"]
     others: [
-        ["2021-04-28", "第十二届蓝桥杯大学生A组省三等奖", "大一下学期，我参与第十二届蓝桥杯大学生A组，然比赛一改以往暴力题，半数以上DP，仅取得省级三等奖。"],
-        ["2021-04-24", "第六届团队程序设计天梯赛个人国家三等奖", "大一下学期，我通过面向全年级的选拔，获得入队名额，在个人赛中获得全国三等奖。"],
-        ["2021-04-24", "第六届团队程序设计天梯赛团体国家二等奖", "大一下学期，我通过面向全年级的选拔，获得入队名额，跟随团队取得团体国家二等奖的成绩。"],
-        ["2020-11-14", "2020级南昌大学程序设计正式赛三等奖", "大一上学期，我参与校举办的面向全校程序设计大赛并获得三等奖，"]
+        ["May 2022 — Present", "Media Manager/Translator, Antioch Grace Church",
+            "Managed AV systems and YouTube content for 100+ weekly viewers. Responsible for real-time sermon translation from Chinese to English."],
+        ["May 2021", "1st Place, Arizona STEM MESA Competition",
+            "Team Leader: Led team of 5 to design iOS medication management app, winning 1st place in Arizona 2021."],
+        ["May 2019", "4th Place, Arizona STEM MESA Competition",
+            "Team Leader: Led coding team to 4th place in Arizona 2019 competition."]
     ],
 
-
-    /**
-     * 在这里填写您的社交网络平台
-     * ["img", "url", "desc"]
-     * img是社交平台的图标，在./svg目录下我们已经准备好了 微博、简书、掘金、小红书、知乎、csdn、facebook、github、力扣、CF和qq的图标
-     * url是您链接
-     * desc是一段描述，将鼠标移入将会显示该描述
-     * 建议您放置数量 <= 5
-     */
+    // Social Media Icons
+    // Format: ["icon_path", "url", "description"]
+    // Available icons in ./svg: github.svg, LinkedIn.svg, FaceBook.svg, LeetCode.svg, etc.
     icon: [
-        ["./svg/LeetCode.svg", "https://leetcode-cn.com/u/happysnaker/", "我的力扣主页"],
-        ["./svg/github.svg", "https://github.com/happysnaker", "我的GitHub主页"],
-        ["./svg/博客.svg", "http://1.15.234.109:8000", "我的个人博客"],
-        ["./svg/掘金.svg", "https://juejin.cn/user/3853167638625000", "我的掘金主页"],
-        ["./svg/知乎.svg", "https://www.zhihu.com/people/tian-xia-you-dao-81", "我的知乎主页"]
+        ["./svg/github.svg", "https://github.com/TBSKBJustin", "My GitHub"],
+        ["./svg/LinkedIn.svg", "https://www.linkedin.com/in/justin-zhang-jingxuan", "My LinkedIn"]
     ],
 
-
-    //这是一些图片链接，建议您仅更改第二个头像图片
+    // Image URLs
+    // [background_image, profile_photo, portfolio_background, experience_background]
     url: [
-        //背景图、头像、作品展示背景、其他经历背景
         "./images/intro-bg.jpg",
         "./images/2.jpg",
         "./images/work-bk.png",
         "./images/4.jpg"
     ]
-
-}
+};
 ```
 
+### Configuration Guidelines
 
+- **Follow JavaScript object syntax**: Don't miss commas between properties, and don't add trailing commas
+- **All data should be strings**: Wrap values in quotes
+- **HTML tags are supported**: Use `<br>`, `<p>`, `<strong>`, etc. for formatting
+- **Colors can be**: Named colors (`"red"`, `"blue"`), hex codes (`"#1abc9c"`), or rgba values
+- **Keep descriptions concise**: Especially for portfolio and work sections
 
-**如果您不需要配置该文件，请注释掉./JS/personal-info-main.js文件中顶层4行代码.**
+## How to Use
 
-```function addScript(url) {
-function addScript(url) {
-    document.write("<script language=javascript src=./config/config.js></script>");
-}
-addScript();
+1. **Clone or download** this repository
+2. **Open** `config/config.js` in a text editor
+3. **Update** all personal information, skills, projects, and experience
+4. **Replace images** in the `./images/` folder with your own
+5. **Open** `index.html` in a web browser to preview
+6. **Deploy** to your hosting service (GitHub Pages, Netlify, AWS S3, etc.)
+
+## Deployment Options
+
+### GitHub Pages (Free)
+```bash
+# Push to GitHub and enable GitHub Pages in repository settings
+git add .
+git commit -m "Update resume"
+git push origin main
 ```
 
+### Local Testing
+Simply open `index.html` in any modern web browser.
 
+### Custom Domain
+After deployment, you can configure a custom domain in your hosting settings.
 
-## 参阅
+## Technologies Used
 
-### 引用库
+- **Frontend Framework**: Bootstrap 4
+- **JavaScript Libraries**: jQuery 3.6.0, Particles.js, AOS (Animate On Scroll)
+- **Animation**: CSS3 animations + Animate.css
+- **Icons**: SVG vector icons
+- **Responsive**: Mobile-first design approach
 
-[Bootstrap · The most popular HTML, CSS, and JS library in the world. (getbootstrap.com)](https://getbootstrap.com/)
+## Browser Support
 
-[AOS - Animate on scroll library (michalsnik.github.io)](http://michalsnik.github.io/aos/)
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
-[anime.js官网_免费、灵活的轻型JavaScript动画库 | animejs](https://www.animejs.cn/)
+## Credits
 
-[jQuery](https://jquery.com/)
+This project is built upon the original template by [happysnaker](https://github.com/happysnaker/Resume-Web-Page) and customized for Jingxuan (Justin) Zhang.
 
+### Libraries & Resources
 
+- [Bootstrap](https://getbootstrap.com/) - CSS Framework
+- [AOS](http://michalsnik.github.io/aos/) - Animate On Scroll Library
+- [jQuery](https://jquery.com/) - JavaScript Library
+- [Particles.js](https://github.com/VincentGarreau/particles.js) - Particle Background Effect
+- [Animate.css](https://animate.style/) - CSS Animation Library
 
-### 其他
+## License
 
-[burc-li/timeLine: 纯CSS时间轴 (github.com)](https://github.com/burc-li/timeLine)
+This project is open source and available for personal use.
 
-[VincentGarreau/particles.js: A lightweight JavaScript library for creating particles (github.com)](https://github.com/VincentGarreau/particles.js)
+## Contact
+
+- **Email**: justinzhangsaw@gmail.com
+- **GitHub**: [@TBSKBJustin](https://github.com/TBSKBJustin)
+- **LinkedIn**: [Justin Zhang](https://www.linkedin.com/in/justin-zhang-jingxuan)
+
+---
+
+© 2025 Jingxuan (Justin) Zhang. All Rights Reserved.
 
 
