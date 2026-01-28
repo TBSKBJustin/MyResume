@@ -60,9 +60,11 @@ var config = {
      * ["img","url", "ProjectName", "brief"]
      */
     portfolio: [
+        ["./images/LiveSub.png", "https://livesub.net/", "LiveSub", "Open-source real-time subtitle/captioning tool (JavaScript, Python, Docker). Designed and implemented full-stack features for live transcription, front-end UI, and containerized deployment."],
+        ["./images/MedCal.png", "https://tbskbjustin.github.io/MedCal/", "MedCal", "Built MedCal, a React + TypeScript single‑page app for clinical nutrition support that performs guideline‑based TPN/EN calculations, manages formula libraries (JSON + localStorage), and exports printable PDF reports; tech: React 18, Vite, Zustand, Tailwind."],
+        ["./images/agcweb.png", "https://agc-az.org", "Antioch Grace Church Website", "Designed and built a dynamic, multilingual church website for Antioch Grace Church using WordPress, enabling categorized sermon archives, YouTube integration, and community updates."],
         ["./images/whispergui.png", "https://github.com/TBSKBJustin/WhisperGUI", "WhisperGUI", "Cross-platform desktop application for audio/video transcription using Python and Whisper, with automated installation integration."],
-        ["./images/zepheria.png", "https://github.com/TBSKBJustin/Zepheria_Beta", "Zepheria VR Game", "Team project: VR role-playing game with optimized combat system and improved responsiveness."],
-        ["./images/agcweb.png", "https://agc-az.org", "Antioch Grace Church Website", "Designed and built a dynamic, multilingual church website for Antioch Grace Church using WordPress, enabling categorized sermon archives, YouTube integration, and community updates."]
+        ["./images/zepheria.png", "https://github.com/TBSKBJustin/Zepheria_Beta", "Zepheria VR Game", "Team project: VR role-playing game with optimized combat system and improved responsiveness."]
     ],
 
     /**
